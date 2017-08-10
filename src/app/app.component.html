@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<div class="ui breadcrumb">
+  <a class="section" [routerLink]="['./home']">Home</a>
+  <span class="divider">/</span>
+  <a class="section" [routerLink]="['./injector']">injector Service</a>
+</div>
+<div class="ui divider"></div>
+<router-outlet></router-outlet>
